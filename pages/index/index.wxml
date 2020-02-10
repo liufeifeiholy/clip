@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+  <clip 
+    src="{{src}}" 
+    loading="{{true}}" 
+    customStyle="top: 0; left: 0"
+    binddone="handleDone"
+    bindfail="handleFail"
+  ></clip>
+</view>
